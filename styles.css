@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Lucida Grande';
+}
+header {
+    padding-top: 15px;
+}
+header div img {
+    float: left;
+    margin-left: 10%;
+    position: absolute;
+}
+nav {
+    background: none repeat scroll 0 0 #EF9859;
+    min-height: 65px;
+}
+nav ul {
+    float: right;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    width: 90%;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    width: 7%;
+}
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #DAA520;
+}
+#home hr {
+    background-color: #DAA520;
+    border: medium none;
+    color: #DAA520;
+    float: inherit;
+    height: 4px;
+    margin-top: 4px;
+}
+#home div img {
+    border-bottom: 3px solid #CC7A29;
+    border-top: 3px solid #CC7A29;
+    height: 450px;
+    margin-top: 25px;
+    width: 100%;
+}
+#message {
+    background: none repeat scroll 0 0 #FF9A58;
+    float: right;
+    height: 70px;
+    left: 50%;
+    opacity: 0.85;
+    position: absolute;
+    top: 200px;
+    width: 50%;
+}
+#message h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 10px 0 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#information{
+	background: #FF9A58;
+}
