@@ -11,7 +11,7 @@ header div img {
     position: absolute;
 }
 nav {
-    background: none repeat scroll 0 0 #EF9859;
+    background: none repeat scroll 0 0 #f19409;
     min-height: 65px;
 }
 nav ul {
@@ -50,7 +50,7 @@ nav ul li a:hover {
     width: 100%;
 }
 #message {
-    background: none repeat scroll 0 0 #FF9A58;
+    background: none repeat scroll 0 0 #f19409;
     float: right;
     height: 70px;
     left: 50%;
@@ -67,5 +67,5 @@ nav ul li a:hover {
     text-transform: uppercase;
 }
 #information{
-	background: #FF9A58;
+	background: #f19409;
 }
