@@ -60,10 +60,10 @@ nav ul li a:hover {
 }
 #message {
     background: none repeat scroll 0 0 #f2940b;
-    height: 70px;
+    height: 75px;
     opacity: 0.85;
     position: absolute;
-    top: 450px;
+    top: 433px;
     width: 50%;
 }
 #message h1 {
@@ -75,4 +75,8 @@ nav ul li a:hover {
 }
 #information{
 	background: #f2940b;
+    left: 25%;
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
 }
