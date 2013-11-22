@@ -75,8 +75,15 @@ nav ul li a:hover {
 }
 #information{
 	background: #f2940b;
-    left: 25%;
+    left: 20%;
     position: absolute;
     color: #FFFFFF;
     text-align: center;
+    width: 750px;
+    margin-top: -4px;
+    border: 1px solid #f2940b;
+    border-radius:0px 0px 15px 15px; 
+    -moz-border-radius: 15px;
+    padding: 10px;
+    height: 110px;
 }
