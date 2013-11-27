@@ -1,7 +1,8 @@
+
 body {
     font-family: 'gill sans';
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 header {
     padding-top: 10px;
@@ -13,7 +14,7 @@ header div img {
     position: absolute;
 }
 nav {
-    background: none repeat scroll 0 0 #f2940b;
+    background: none repeat scroll 0 0 #F2940B;
     min-height: 60px;
 }
 nav ul {
@@ -36,7 +37,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #DAA520;
 }
-
 ol, ul, menu {
     list-style: none outside none;
 }
@@ -55,41 +55,58 @@ ol, ul, menu {
     margin-top: 25px;
     width: 100%;
 }
-#reservations{
-    background-color: #e68501;
+.reservation {
+    background-color: #E68501;
+    border: 1px solid #F2940B;
+    border-radius: 15px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 13px;
     height: 350px;
-    margin: 70px 1000px;
     position: absolute;
-    border: 1px solid #f2940b;
-    border-radius:15px;
-    width: 230px;
+    right: 2%;
+    top: 150px;
+    width: 250px;
 }
-
-#reservations img{
-    margin-top: 20px;
-}
-#reservations span{
-    display: block;
-    float: left;
-    margin: 10px 15px 5px 10px;
-    text-align: left;
-    max-width: 50px;
-}
-#reservations input{
-    border: 1px solid #CCCCCC;
-    height: 20px;
-    margin: 5px 0;
-    float: right;
-    margin-right: 10px;
-    max-width: 130px;
-}
-#reservations ol{
+.reservation ul {
     padding: 0;
 }
+.form-row-date label {
+    font-size: 12px;
+}
+.form-row-date input {
+    height: 10px;
+    width: 30px;
+}
+.reservation img {
+    margin: 10px 0 0 30px;
+}
+.form-row {
+    margin: 10px 15px 10px 20px;
+}
+.form-row-date {
+    margin: 0 15px 5px 75px;
+}
+.form-row label,
+.form-row-date label {
+    display: inline-block;
+    width: 50px;
+}
+.form-row-date label {
+    width: 38px;
+}
+.submitButton{
+    height: 30px;
+    width: 120px;  
+    background-image:url('web-app/img/sendButton.png');
+    background-repeat:no-repeat;
+}
+.form-row input {
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    width: 158px;
+}
 #message {
-    background: none repeat scroll 0 0 #f2940b;
+    background: none repeat scroll 0 0 #F2940B;
     height: 75px;
     opacity: 0.85;
     position: absolute;
@@ -103,20 +120,16 @@ ol, ul, menu {
     text-align: left;
     text-transform: uppercase;
 }
-#information{
-	background: #f2940b;
-    left: 20%;
-    position: absolute;
+#information {
+    background: none repeat scroll 0 0 #F2940B;
+    border: 1px solid #F2940B;
+    border-radius: 0 0 15px 15px;
     color: #FFFFFF;
+    height: 110px;
+    left: 20%;
+    margin-top: -4px;
+    padding: 10px;
+    position: absolute;
     text-align: center;
     width: 750px;
-    margin-top: -4px;
-    border: 1px solid #f2940b;
-    border-radius:0px 0px 15px 15px; 
-    -moz-border-radius: 15px;
-    padding: 10px;
-    height: 110px;
-}
-.submitButton{
-    background-image: "web-app/img/reservas.png"
 }
