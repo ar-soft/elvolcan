@@ -11,6 +11,7 @@ header div img {
     margin-left: 10%;
     margin-top: -15px;
     position: absolute;
+    z-index: 1;
 }
 nav {
     background: none repeat scroll 0 0 #f2940b;
@@ -47,6 +48,7 @@ ol, ul, menu {
     float: inherit;
     height: 4px;
     margin-top: 4px;
+    margin-bottom: 0px;
 }
 #home #background {
     border-bottom: 3px solid #CC7A29;
@@ -119,4 +121,13 @@ ol, ul, menu {
 }
 .submitButton{
     background-image: "web-app/img/reservas.png"
+}
+
+.orange-column{
+    background-color: #E68501;
+    margin-left: 2%;
+    min-height: 100%;
+    min-width: 250px;
+    position: absolute;
+}
 }
