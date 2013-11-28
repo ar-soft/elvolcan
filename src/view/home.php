@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="web-app/js/jquery.ui.datepicker.js"></script>
+<script>
+	$(function() {
+	$( "#in" ).datepicker( $.datepicker.regional[ "es" ] );
+	$( "#out" ).datepicker( $.datepicker.regional[ "es" ] );
+	});
+</script>
+<section id="home">
+	<div class="reservation">
+		<img src="web-app/img/reservas.png" height="30" width="180">
+		<form id="reservation" name="reservation" method="POST" action="src/class/reservationForm.php">
+			<ul>
+				<li class="form-row">
+					<label>Nombre</label>
+					<input id="name" type="text"/>
+				</li>
+				<li class="form-row">
+					<label>Teléfono</label>
+					<input id="phone" type="text"/>
+				</li>
+				<li class="form-row">
+					<label>E-Mail</label>
+					<input id="email" type="text"/>
+				</li>
+				<li class="form-row">
+					<label>Dni</label>
+					<input id="dni" type="text"/></label>
+				</li>
+				<li class="form-row">
+					<label>Tipo de Suite</label>
+					<input id="suite" type="text"/>
+				</li>	
+				<li class="form-row-date">
+					<label>Ingreso</label>
+					<input id="in" type="text"/>
+					<label>Egreso</label>
+					<input id="out" type="text"/>
+				</li>
+				<li class="form-row-date">
+					<label>Niños</label>
+					<input id="children" type="text"/>
+					<label>Adultos</label>
+					<input id="adult" type="text"/> 
+				</li>
+			</ul>
+			<button class="submitButton"></button>
+		</form>
+	</div>
+	<div id="message"><h1>Un lugar para disfrutar</h1></div>
+	<div>
+		<img id="background" src="web-app/img/fondo.png" alt="El Volcán">
+	</div>
+	<div id="information">
+		<p>El Hotel posee X habitaciones con todo lo necesario para brindarle el servicio que Ud. se merece.<br>Se encuentra ubicado a YY Km. de San Luis, en una zona atractiva y placentera por sus...</p>
+		<h1>San Miguel Arcangel / El Volcán San Luis Argentina</h1>
+	</div>
+</section>

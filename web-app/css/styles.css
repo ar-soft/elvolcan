@@ -99,7 +99,7 @@ ol, ul, menu {
 .submitButton{
     height: 30px;
     width: 120px;  
-    background-image:url('/web-app/img/sendButton.png');
+    background-image:url('web-app/img/sendButton.png');
     background-repeat:no-repeat;
 }
 .form-row input {

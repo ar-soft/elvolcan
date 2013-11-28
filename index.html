@@ -1,88 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
 <head>
-	<meta charset="utf-8"/>
-	
-	<title>El Volcán Hotel Serrano</title>
-	 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-	 <script src="web-app/js/jquery.ui.datepicker.js"></script>
-	   <script>
-		$(function() {
-		$( "#in" ).datepicker( $.datepicker.regional[ "es" ] );
-		$( "#out" ).datepicker( $.datepicker.regional[ "es" ] );
-		});
-	   </script>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Hotel El Volcán</title>
+	<meta http-equiv="REFRESH" content="0;url=/index.php">
 </head>
 <body>
-	<section id="content">
-		<header>
-			<div>
-				<img src="web-app/img/logo.png" alt="El Volcán" height="298" width="250">
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#home">inicio</a></li>
-					<li><a href="#imagenes">imágenes</a></li>
-					<li><a href="#ubicacion">ubicación</a></li>
-					<li><a href="#tarifas">tarifas</a></li>
-					<li><a href="#inicio">reservas</a></li>
-				</ul>
-			</nav>
-		</header>
-		<section id="home">
-			<hr/>
-			<div class="reservation">
-				<img src="web-app/img/reservas.png" height="30" width="180">
-				<form id="reservation" name="reservation" method="POST" action="src/class/reservationForm.php">
-					<ul>
-						<li class="form-row">
-							<label>Nombre</label>
-							<input id="name" type="text"/>
-						</li>
-						<li class="form-row">
-							<label>Teléfono</label>
-							<input id="phone" type="text"/>
-						</li>
-						<li class="form-row">
-							<label>E-Mail</label>
-							<input id="email" type="text"/>
-						</li>
-						<li class="form-row">
-							<label>Dni</label>
-							<input id="dni" type="text"/></label>
-						</li>
-						<li class="form-row">
-							<label>Tipo de Suite</label>
-							<input id="suite" type="text"/>
-						</li>	
-						<li class="form-row-date">
-							<label>Ingreso</label>
-							<input id="in" type="text"/>
-							<label>Egreso</label>
-							<input id="out" type="text"/>
-						</li>
-						<li class="form-row-date">
-							<label>Niños</label>
-							<input id="children" type="text"/>
-							<label>Adultos</label>
-							<input id="adult" type="text"/> 
-						</li>
-					</ul>
-					<button class="submitButton"></button>
-				</form>
-			</div>
-			<div id="message"><h1>Un lugar para disfrutar</h1></div>
-			<div>
-				<img id="background" src="web-app/img/fondo.png" alt="El Volcán">
-			</div>
-			<div id="information">
-				<p>El Hotel posee X habitaciones con todo lo necesario para brindarle el servicio que Ud. se merece.<br>Se encuentra ubicado a YY Km. de San Luis, en una zona atractiva y placentera por sus...</p>
-				<h1>San Miguel Arcangel / El Volcán San Luis Argentina</h1>
-			</div>
-		</section>
-	</section>	
 </body>
 </html>
