@@ -135,6 +135,16 @@ ol, ul, menu {
     text-align: center;
     width: 750px;
 }
+#pricing #background{
+    background-color: #E68501;
+    border: 1px solid #F2940B;
+    border-radius: 15px 15px 15px 15px;
+    min-height: 580px;
+    min-width: 76.6%;
+    position: absolute;
+    right: 1%;
+    top: 13%;
+}
 
 .orange-column{
     background-color: #E68501;
@@ -143,4 +153,30 @@ ol, ul, menu {
     min-width: 250px;
     position: absolute;
 }
+
+.bullets{
+    background-color: #E68501;
+    border: 0.1px solid #FFFFFF;
+    border-radius: 15px 15px 15px 15px;
+    min-height: 20px;
+    min-width: 40px;
+    position: absolute;
+    left: 20.3%;
+}
+
+#first{
+    top: 25.5%;
+}
+
+#second{
+    top: 75%;
+}
+
+#rectangle{
+    background-color: #FFFFFF;
+    min-height: 200px;
+    min-width: 400px;
+    position: absolute;
+
+
 }
