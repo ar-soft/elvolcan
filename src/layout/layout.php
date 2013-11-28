@@ -23,6 +23,7 @@
 			</nav>
 		</header>
 		<hr>
+		<div class="orange-column"></div>
 		<?php require_once($body_path);?>
 	</section>	
 </body>

@@ -136,7 +136,7 @@ ol, ul, menu {
     width: 750px;
 }
 
-#location .orange-column{
+.orange-column{
     background-color: #E68501;
     margin-left: 2%;
     min-height: 100%;
