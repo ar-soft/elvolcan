@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="/web-app/css/styles.css">
 </head>
 <body>
-	<section id="content">
+	<section class="content<?php if(!$axn): echo " home"; endif;?>">
 		<header>
 			<div>
 				<img id="logo" src="web-app/img/logo.png" alt="El Volcán" height="298" width="250">
