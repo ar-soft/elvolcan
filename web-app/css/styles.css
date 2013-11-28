@@ -173,10 +173,31 @@ ol, ul, menu {
 }
 
 #rectangle{
-    background-color: #FFFFFF;
-    min-height: 200px;
-    min-width: 400px;
+    background-color: #f6f6f6;
+    min-height: 250px;
+    min-width: 875px;
     position: absolute;
+    top:35%;
+    left: 26%;
+    padding: 10px;
 
+}
 
+#orange-rectangle{
+    min-height: 250px;
+    min-width: 870px;
+    border: 1px solid #E68501;
+
+}
+
+#orange-rectangle table{ 
+    color: #E68501;
+    font-size: 20px;
+    margin: 6% 0 0 14%;
+    min-width: 600px;
+    text-align: center;
+}
+
+#orange-rectangle table td{ 
+    font-size: 14px;
 }
