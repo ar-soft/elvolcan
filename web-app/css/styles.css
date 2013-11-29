@@ -1,11 +1,60 @@
-
 body {
     font-family: 'gill sans';
     margin: 0;
     padding: 0;
 }
 header {
-    padding-top: 10px;
+    padding-top: 30px;
+}
+footer {
+    min-height: 80px;
+}
+header nav {
+    background: none repeat scroll 0 0 #F2940B;
+    min-height: 60px;
+}
+
+nav ul {
+    font-size: 13px;
+    margin: 0;
+}
+header nav ul {
+    float: right;
+    padding-top: 40px;
+    width: 90%;
+    text-align: center;
+}
+footer nav ul {
+    float: right;
+    margin: 40px 12% 0 0;
+}
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+header nav ul li {
+    width: 7%;
+}
+footer nav ul li {
+    border: 1px solid #CC7A29;
+    text-align: center;
+}
+header nav ul li a {
+    color: #FFFFFF;
+}
+footer nav ul li a {
+    color: #000000;
+    display: block;
+    width: 100px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #DAA520;
+}
+ol, ul, menu {
+    list-style: none outside none;
 }
 .content header div img {
     float: left;
@@ -27,33 +76,7 @@ header {
 .content.home .orange-column{
     min-height: 0;
 }
-nav {
-    background: none repeat scroll 0 0 #F2940B;
-    min-height: 60px;
-}
-nav ul {
-    float: right;
-    font-size: 13px;
-    margin: 0;
-    padding-top: 40px;
-    text-align: center;
-    width: 90%;
-}
-nav ul li {
-    display: inline-block;
-    text-transform: uppercase;
-    width: 7%;
-}
-nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-nav ul li a:hover {
-    color: #DAA520;
-}
-ol, ul, menu {
-    list-style: none outside none;
-}
+
 .content hr {
     background-color: #DAA520;
     border: medium none;
@@ -63,7 +86,7 @@ ol, ul, menu {
     margin-top: 4px;
     margin-bottom: 0px;
 }
-#home #background {
+.content.home #background {
     border-bottom: 3px solid #CC7A29;
     border-top: 3px solid #CC7A29;
     height: 450px;
@@ -141,24 +164,18 @@ ol, ul, menu {
     border-radius: 0 0 15px 15px;
     color: #FFFFFF;
     height: 110px;
-    left: 20%;
-    margin-top: -4px;
-    padding: 10px;
-    position: absolute;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
-    width: 750px;
 }
-#pricing #background{
+.content.tarifas section {
     background-color: #E68501;
     border: 1px solid #F2940B;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
+    margin: 8px 0 8px 280px;
     min-height: 580px;
-    min-width: 76.6%;
-    position: absolute;
-    right: 1%;
-    top: 13%;
 }
-
 .bullets{
     background-color: #E68501;
     border: 0.1px solid #FFFFFF;

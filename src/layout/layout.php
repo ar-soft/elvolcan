@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="/web-app/css/styles.css">
 </head>
 <body>
-	<section class="content<?php if(!$axn): echo " home"; endif;?>">
+	<section class="content<?php if(!$axn): echo " home"; else: echo " $axn";endif;?>">
 		<header>
 			<div>
 				<img id="logo" src="web-app/img/logo.png" alt="El Volcán" height="298" width="250">
@@ -24,7 +24,18 @@
 		</header>
 		<hr>
 		<div class="orange-column"></div>
-		<?php require_once($body_path);?>
+		<section>
+			<?php require_once($body_path);?>
+		</section>
+		<footer>
+			<?php if($axn): echo "<hr>";endif;?>
+			<nav>
+				<ul>
+					<li><a href="?axn=reservas">reservas</a></li>
+					<li><a href="?axn=contacto">contacto</a></li>
+				</ul>
+			</nav>
+		</footer>
 	</section>	
 </body>
 </html>
