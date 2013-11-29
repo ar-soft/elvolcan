@@ -10,7 +10,7 @@
 </script>
 
 <div class="reservation">
-	<img src="web-app/img/reservas.png" height="30" width="180">
+	<img src="web-app/img/reservas.png" height="28" width="180">
 	<form id="reservation" name="reservation" method="POST" action="src/class/reservationForm.php">
 		<ul>
 			<li class="form-row">
@@ -46,7 +46,9 @@
 				<input id="adult" type="text"/> 
 			</li>
 		</ul>
-		<button class="submitButton"></button>
+		<center>
+			<input type="image" width="185" height="40" src="/web-app/img/sendReservation.png" value="Enviar Reserva" />
+		</center>
 	</form>
 </div>
 <div id="message"><h1>Un lugar para disfrutar</h1></div>

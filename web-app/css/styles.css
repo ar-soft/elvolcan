@@ -112,14 +112,14 @@ ol, ul, menu {
     font-size: 12px;
 }
 .form-row-date input {
-    height: 10px;
-    width: 30px;
+    height: 18px;
+    width: 36px;
 }
 .reservation img {
     margin: 10px 0 0 30px;
 }
 .form-row {
-    margin: 10px 15px 10px 20px;
+    margin: 14px 15px 14px 20px;
 }
 .form-row-date {
     margin: 0 15px 5px 75px;
@@ -132,16 +132,10 @@ ol, ul, menu {
 .form-row-date label {
     width: 38px;
 }
-.submitButton{
-    height: 30px;
-    width: 120px;  
-    background-image:url('web-app/img/sendButton.png');
-    background-repeat:no-repeat;
-}
 .form-row input {
     border: 1px solid #CCCCCC;
-    height: 20px;
-    width: 158px;
+    height: 25px;
+    width: 160px;
 }
 #message {
     background: none repeat scroll 0 0 #F2940B;
@@ -222,4 +216,8 @@ ol, ul, menu {
 
 #orange-rectangle table td{ 
     font-size: 14px;
+}
+
+.ui-datepicker { 
+    font-size: 8pt !important; 
 }
