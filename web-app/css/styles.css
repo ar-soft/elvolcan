@@ -1,6 +1,5 @@
 body {
     font-family: 'gill sans';
-    font-weight: lighter;
     margin: 0;
     padding: 0;
 }
@@ -178,8 +177,10 @@ ol, ul, menu {
     min-height: 484px;
     margin: 8px 12 8px 280px;
 }
-.content.tarifas tr.first th{
+.content.tarifas tr.first th {
+    font-weight: normal;
     height: 60px;
+    width: 30%;
 }
 .bullets{
     background-color: #E68501;
@@ -198,10 +199,8 @@ ol, ul, menu {
 }
 #rectangle {
     background-color: #F6F6F6;
-    left: 26%;
-    margin: 15% 8% 8%;
+    margin: 12% 8% 8%;
     padding: 10px;
-    top: 40%;
 }
 #orange-rectangle{
     border: 1px solid #E68501;
@@ -212,15 +211,17 @@ ol, ul, menu {
     border: 1px solid #F2940B;
     border-radius: 15px;
 }
-#orange-rectangle table{ 
+#orange-rectangle table {
     color: #E68501;
     font-size: 20px;
+    margin-bottom: 6%;
     margin-top: 4%;
     text-align: center;
 }
-
-#orange-rectangle table td{ 
+#orange-rectangle table td {
     font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .ui-datepicker { 
