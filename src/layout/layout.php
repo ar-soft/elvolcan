@@ -24,10 +24,7 @@
 		</header>
 		<section>
 			<hr>
-			<div class="content-column"></div>
-			<section class="content-body">
-				<?php require_once($body_path);?>
-			</section>
+			<?php require_once($body_path);?>
 			<?php if($axn): echo "<hr>";endif;?>
 		</section>
 		<footer>
