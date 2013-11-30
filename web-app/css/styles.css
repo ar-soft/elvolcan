@@ -13,7 +13,6 @@ header nav {
     background: none repeat scroll 0 0 #F2940B;
     min-height: 60px;
 }
-
 nav ul {
     font-size: 13px;
     margin: 0;
@@ -66,17 +65,19 @@ ol, ul, menu {
 .content.home header div img {
     margin-left: 10%;
 }
-.orange-column{
+.content-column{
     background-color: #E68501;
     margin-left: 2%;
-    min-height: 100%;
+    min-height: 458px;
     min-width: 250px;
     position: absolute;
 }
-.content.home .orange-column{
+.content.home .content-column{
     min-height: 0;
 }
-
+.content.home .content-body{
+    margin: 0;
+}
 .content hr {
     background-color: #DAA520;
     border: medium none;
@@ -163,12 +164,21 @@ ol, ul, menu {
     margin-right: 20%;
     text-align: center;
 }
-.content.tarifas section {
-    background-color: #E68501;
-    border: 1px solid #F2940B;
-    border-radius: 15px;
-    margin: 8px 0 8px 280px;
-    min-height: 580px;
+.content-body{
+    margin-left: 280px;
+}
+.content-body, .content-column, .content.ubicacion iframe{
+    min-height: 500px;
+}
+.content.ubicacion iframe{
+    min-width: 100%;
+}
+.content.tarifas .content-body{
+    min-height: 484px;
+    margin: 8px 12 8px 280px;
+}
+.content.tarifas tr.first th{
+    height: 60px;
 }
 .bullets{
     background-color: #E68501;
@@ -179,38 +189,32 @@ ol, ul, menu {
     position: absolute;
     left: 20.3%;
 }
-
-#first{
+.bullets.first{
     top: 25.5%;
 }
-
-#second{
+.bullets.second{
     top: 75%;
 }
-
-#rectangle{
-    background-color: #f6f6f6;
-    min-height: 250px;
-    min-width: 875px;
-    position: absolute;
-    top:35%;
+#rectangle {
+    background-color: #F6F6F6;
     left: 26%;
+    margin: 15% 8% 8%;
     padding: 10px;
-
+    top: 40%;
 }
-
 #orange-rectangle{
-    min-height: 250px;
-    min-width: 870px;
     border: 1px solid #E68501;
-
 }
 
+.content.tarifas section section {
+    background-color: #E68501;
+    border: 1px solid #F2940B;
+    border-radius: 15px;
+}
 #orange-rectangle table{ 
     color: #E68501;
     font-size: 20px;
-    margin: 6% 0 0 14%;
-    min-width: 600px;
+    margin-top: 4%;
     text-align: center;
 }
 

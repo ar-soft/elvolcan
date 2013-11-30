@@ -22,13 +22,15 @@
 				</ul>
 			</nav>
 		</header>
-		<hr>
-		<div class="orange-column"></div>
 		<section>
-			<?php require_once($body_path);?>
+			<hr>
+			<div class="content-column"></div>
+			<section class="content-body">
+				<?php require_once($body_path);?>
+			</section>
+			<?php if($axn): echo "<hr>";endif;?>
 		</section>
 		<footer>
-			<?php if($axn): echo "<hr>";endif;?>
 			<nav>
 				<ul>
 					<li><a href="?axn=reservas">reservas</a></li>
