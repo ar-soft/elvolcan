@@ -65,8 +65,13 @@ ol, ul, menu {
 .content.home header div img {
     margin-left: 10%;
 }
-.content-column{
+<<<<<<< HEAD
+.orange-column{
     background-color: #F19402;
+=======
+.content-column{
+    background-color: #E68501;
+>>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
     margin-left: 2%;
     min-height: 458px;
     min-width: 250px;
@@ -164,6 +169,14 @@ ol, ul, menu {
     margin-right: 20%;
     text-align: center;
 }
+<<<<<<< HEAD
+.content.tarifas section {
+    background-color: #F19402;
+    border: 1px solid #F19402;
+    border-radius: 15px;
+    margin: 8px 0 8px 280px;
+    min-height: 580px;
+=======
 .content-body{
     margin-left: 280px;
 }
@@ -181,6 +194,7 @@ ol, ul, menu {
     font-weight: normal;
     height: 60px;
     width: 30%;
+>>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
 }
 .bullets{
     background-color: #E68501;
@@ -203,7 +217,14 @@ ol, ul, menu {
     padding: 10px;
 }
 #orange-rectangle{
+<<<<<<< HEAD
+    min-height: 250px;
+    min-width: 870px;
     border: 1px solid #F19402;
+
+=======
+    border: 1px solid #E68501;
+>>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
 }
 
 .content.tarifas section section {
