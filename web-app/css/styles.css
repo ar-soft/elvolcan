@@ -228,3 +228,17 @@ ol, ul, menu {
 .ui-datepicker { 
     font-size: 8pt !important; 
 }
+#light {
+    left: 41%;
+    position: absolute;
+    top: 18%;
+    max-height: 70%;
+}
+
+#bank {
+
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+
+}

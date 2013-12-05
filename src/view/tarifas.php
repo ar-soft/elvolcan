@@ -5,6 +5,7 @@
 	<div id="rectangle">
 		<div id="orange-rectangle">
 			<center>
+				<div><img src="web-app/img/luz.png" id="light"></div>
 			<table>
 				<tbody>
 					<tr class="first">
@@ -40,6 +41,7 @@
 				</tbody>
 			</table>
 			</center>
+			<div><img src="web-app/img/banco.png" id="bank"></div>
 		</div>
 	</div>
 </section>
