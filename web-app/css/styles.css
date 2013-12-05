@@ -10,7 +10,7 @@ footer {
     min-height: 80px;
 }
 header nav {
-    background: none repeat scroll 0 0 #F2940B;
+    background: none repeat scroll 0 0 #F19402;
     min-height: 60px;
 }
 
@@ -67,7 +67,7 @@ ol, ul, menu {
     margin-left: 10%;
 }
 .orange-column{
-    background-color: #E68501;
+    background-color: #F19402;
     margin-left: 2%;
     min-height: 100%;
     min-width: 250px;
@@ -80,7 +80,7 @@ ol, ul, menu {
 .content hr {
     background-color: #DAA520;
     border: medium none;
-    color: #DAA520;
+    color: #BD900E;
     float: inherit;
     height: 4px;
     margin-top: 4px;
@@ -94,8 +94,8 @@ ol, ul, menu {
     width: 100%;
 }
 .reservation {
-    background-color: #E68501;
-    border: 1px solid #F2940B;
+    background-color: #F19402;
+    border: 1px solid #F19402;
     border-radius: 15px;
     color: #FFFFFF;
     font-size: 13px;
@@ -138,7 +138,7 @@ ol, ul, menu {
     width: 160px;
 }
 #message {
-    background: none repeat scroll 0 0 #F2940B;
+    background: none repeat scroll 0 0 #F19402;
     height: 75px;
     opacity: 0.85;
     position: absolute;
@@ -153,7 +153,7 @@ ol, ul, menu {
     text-transform: uppercase;
 }
 #information {
-    background: none repeat scroll 0 0 #F2940B;
+    background: none repeat scroll 0 0 #F19402;
     border: 1px solid #F2940B;
     border-radius: 0 0 15px 15px;
     color: #FFFFFF;
@@ -164,8 +164,8 @@ ol, ul, menu {
     text-align: center;
 }
 .content.tarifas section {
-    background-color: #E68501;
-    border: 1px solid #F2940B;
+    background-color: #F19402;
+    border: 1px solid #F19402;
     border-radius: 15px;
     margin: 8px 0 8px 280px;
     min-height: 580px;
@@ -202,7 +202,7 @@ ol, ul, menu {
 #orange-rectangle{
     min-height: 250px;
     min-width: 870px;
-    border: 1px solid #E68501;
+    border: 1px solid #F19402;
 
 }
 
