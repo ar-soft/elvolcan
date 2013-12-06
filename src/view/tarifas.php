@@ -9,8 +9,8 @@
 			<table>
 				<tbody>
 					<tr class="first">
-						<th>HABITACIONES</th>
 						<th>CONFIGURACIÓN</th>
+						<th>HABITACIONES</th>
 						<th>TARIFAS</th>
 					</tr>
 					<tr>

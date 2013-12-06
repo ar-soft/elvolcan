@@ -31,7 +31,8 @@ function initialize() {
 
   var mapOptions = {
     zoom: 50,
-    center: new google.maps.LatLng(-33.249235, -66.194677)
+    center: new google.maps.LatLng(-33.249235, -66.194677),
+    mapTypeId: google.maps.MapTypeId.SATELLITE
   };
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
