@@ -29,11 +29,12 @@
 		</section>
 		<footer>
 			<nav>
+				<img id="logoinferior" src="web-app/img/logoinferior.png">
 				<ul>
-					<li><a href="?axn=reservas">reservas</a></li>
 					<li><a href="?axn=contacto">contacto</a></li>
 				</ul>
 			</nav>
+			<div id="copyright"><p>&copy; El Volcán Hotel Serrano - El Volcán, San Luis, Argentina. Todos los derechos reservados</p></div>
 		</footer>
 	</section>	
 </body>

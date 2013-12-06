@@ -45,6 +45,8 @@ footer nav ul li a {
     color: #000000;
     display: block;
     width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
 }
 nav ul li a {
     text-decoration: none;
@@ -67,8 +69,8 @@ ol, ul, menu {
 }
 .content-column{
     background-color: #F19402;
-    margin-left: 2%;
-    min-height: 458px;
+    margin-left: 24px;
+    min-height: 587.5px;
     min-width: 250px;
     position: absolute;
 }
@@ -148,10 +150,11 @@ ol, ul, menu {
 }
 #message h1 {
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 45px;
     margin: 10px 0 10px 20px;
     text-align: left;
     text-transform: uppercase;
+    font-weight: normal;
 }
 #information {
     background: none repeat scroll 0 0 #F19402;
@@ -163,18 +166,17 @@ ol, ul, menu {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+    font-weight: 100;
 }
 .content-body{
     margin-left: 280px;
-}
-.content-body, .content-column, .content.ubicacion iframe{
-    min-height: 500px;
+    min-height: 570px;
 }
 .content.ubicacion iframe{
+    min-height: 584px;
     min-width: 100%;
 }
-.content.tarifas .content-body{
-    min-height: 484px;
+.content.tarifas .content-body{ 
     margin: 8px 12 8px 280px;
 }
 .content.tarifas tr.first th {
@@ -189,17 +191,20 @@ ol, ul, menu {
     min-height: 20px;
     min-width: 40px;
     position: absolute;
-    left: 20.3%;
+    left: 255px;
 }
 .bullets.first{
-    top: 25.5%;
+    top: 200px;
 }
 .bullets.second{
-    top: 75%;
+    top: 550px;
 }
 #rectangle {
     background-color: #F6F6F6;
-    margin: 12% 8% 8%;
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-bottom: 120px;
+    margin-right: 50px;
     padding: 10px;
 }
 #orange-rectangle{
@@ -229,16 +234,32 @@ ol, ul, menu {
     font-size: 8pt !important; 
 }
 #light {
-    left: 41%;
+    left: 450px;
     position: absolute;
-    top: 18%;
-    max-height: 70%;
+    top: 140px; 
 }
 
 #bank {
 
     position: absolute;
-    bottom: 15%;
+    bottom: 10px;
     left: 50%;
 
+}
+
+#logoinferior{
+
+    margin-top:20px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+#copyright{
+    background-color: #DAA520;
+    max-width: 550px;
+    margin-left: 350px;
+    font-size: 13px;
+    color: white; 
+    min-height: 23px;  
+    text-align: center;
+    font-weight: 1px;
 }

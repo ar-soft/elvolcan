@@ -2,10 +2,10 @@
 <section class="content-body">
 	<div class="bullets first"></div>
 	<div class="bullets second"></div>
+	<div><img src="web-app/img/luz.png" id="light"></div>
 	<div id="rectangle">
 		<div id="orange-rectangle">
 			<center>
-				<div><img src="web-app/img/luz.png" id="light"></div>
 			<table>
 				<tbody>
 					<tr class="first">
