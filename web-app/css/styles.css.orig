@@ -45,6 +45,8 @@ footer nav ul li a {
     color: #000000;
     display: block;
     width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
 }
 nav ul li a {
     text-decoration: none;
@@ -65,15 +67,10 @@ ol, ul, menu {
 .content.home header div img {
     margin-left: 10%;
 }
-<<<<<<< HEAD
-.orange-column{
-    background-color: #F19402;
-=======
 .content-column{
-    background-color: #E68501;
->>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
-    margin-left: 2%;
-    min-height: 458px;
+    background-color: #F19402;
+    margin-left: 24px;
+    min-height: 587.5px;
     min-width: 250px;
     position: absolute;
 }
@@ -114,9 +111,6 @@ ol, ul, menu {
 .reservation ul {
     padding: 0;
 }
-.form-row-date label {
-    font-size: 12px;
-}
 .form-row-date input {
     height: 18px;
     width: 36px;
@@ -130,12 +124,26 @@ ol, ul, menu {
 .form-row-date {
     margin: 0 15px 5px 75px;
 }
+label {
+    display: inline-block;
+}
 .form-row label,
 .form-row-date label {
-    display: inline-block;
     width: 50px;
 }
+.form-row textarea {
+    vertical-align: top;
+}
+
+.contacto .form-row label{
+    width: 150px;
+    text-align: left;   
+}
+.contacto .form-row input {
+    width: 250px;
+}    
 .form-row-date label {
+    font-size: 12px;
     width: 38px;
 }
 .form-row input {
@@ -153,10 +161,11 @@ ol, ul, menu {
 }
 #message h1 {
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 45px;
     margin: 10px 0 10px 20px;
     text-align: left;
     text-transform: uppercase;
+    font-weight: normal;
 }
 #information {
     background: none repeat scroll 0 0 #F19402;
@@ -168,33 +177,28 @@ ol, ul, menu {
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
+    font-weight: 100;
 }
-<<<<<<< HEAD
-.content.tarifas section {
-    background-color: #F19402;
-    border: 1px solid #F19402;
-    border-radius: 15px;
-    margin: 8px 0 8px 280px;
-    min-height: 580px;
-=======
 .content-body{
     margin-left: 280px;
-}
-.content-body, .content-column, .content.ubicacion iframe{
-    min-height: 500px;
+    min-height: 570px;
 }
 .content.ubicacion iframe{
+    min-height: 584px;
     min-width: 100%;
 }
-.content.tarifas .content-body{
-    min-height: 484px;
+.content.tarifas .content-body,
+.content.servicios .content-body,
+.content.contacto .content-body{ 
     margin: 8px 12 8px 280px;
+    background-color: #E68501;
+    border: 1px solid #F2940B;
+    border-radius: 15px;
 }
 .content.tarifas tr.first th {
     font-weight: normal;
     height: 60px;
     width: 30%;
->>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
 }
 .bullets{
     background-color: #E68501;
@@ -203,41 +207,31 @@ ol, ul, menu {
     min-height: 20px;
     min-width: 40px;
     position: absolute;
-    left: 20.3%;
+    left: 255px;
 }
 .bullets.first{
-    top: 25.5%;
+    top: 200px;
 }
 .bullets.second{
-    top: 75%;
+    top: 550px;
 }
 #rectangle {
     background-color: #F6F6F6;
-    margin: 12% 8% 8%;
+    margin-top: 160px;
+    margin-left: 50px;
+    margin-bottom: 120px;
+    margin-right: 50px;
     padding: 10px;
 }
 #orange-rectangle{
-<<<<<<< HEAD
-    min-height: 250px;
-    min-width: 870px;
     border: 1px solid #F19402;
-
-=======
-    border: 1px solid #E68501;
->>>>>>> 87d3b58cc87b3b8c0ecfbe1c9fc825fcccdfcd42
-}
-
-.content.tarifas section section {
-    background-color: #E68501;
-    border: 1px solid #F2940B;
-    border-radius: 15px;
 }
 #orange-rectangle table {
-    color: #E68501;
     font-size: 20px;
     margin-bottom: 6%;
     margin-top: 4%;
     text-align: center;
+    color: #707173;
 }
 #orange-rectangle table td {
     font-size: 14px;
@@ -247,4 +241,56 @@ ol, ul, menu {
 
 .ui-datepicker { 
     font-size: 8pt !important; 
+}
+<<<<<<< HEAD
+#light {
+    left: 35%;
+=======
+.light {
+    margin-left: -325px;
+>>>>>>> 768928386676f097859cd18fa677a082132a2d17
+    position: absolute;
+    top: 140px;
+    width: 650px;
+}
+<<<<<<< HEAD
+
+#bank {
+    background-image: url("/web-app/img/banco.png");
+    background-repeat:no-repeat;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 258px;
+    height: 84px;
+=======
+.bank {
+    bottom: 10px;
+    margin-left: -126.5px;
+    position: absolute;
+    width: 258px;
+}
+.sobre {
+    height: 600px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+>>>>>>> 768928386676f097859cd18fa677a082132a2d17
+}
+#logoinferior{
+
+    margin-top:20px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+#copyright{
+    background-color: #DAA520;
+    color: white;
+    font-size: 13px;
+    margin-left: 350px;
+    margin-top: -30px;
+    max-width: 600px;
+    min-height: 20px;
+    position: absolute;
+    text-align: center;
 }
