@@ -234,17 +234,19 @@ ol, ul, menu {
     font-size: 8pt !important; 
 }
 #light {
-    left: 450px;
+    left: 35%;
     position: absolute;
     top: 140px; 
 }
 
 #bank {
-
+    background-image: url("/web-app/img/banco.png");
+    background-repeat:no-repeat;
     position: absolute;
-    bottom: 10px;
+    bottom: 5%;
     left: 50%;
-
+    width: 258px;
+    height: 84px;
 }
 
 #logoinferior{
@@ -255,11 +257,12 @@ ol, ul, menu {
 }
 #copyright{
     background-color: #DAA520;
-    max-width: 550px;
-    margin-left: 350px;
+    color: white;
     font-size: 13px;
-    color: white; 
-    min-height: 23px;  
+    margin-left: 350px;
+    margin-top: -30px;
+    max-width: 600px;
+    min-height: 20px;
+    position: absolute;
     text-align: center;
-    font-weight: 1px;
 }

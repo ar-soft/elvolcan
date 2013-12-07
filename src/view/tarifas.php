@@ -2,7 +2,7 @@
 <section class="content-body">
 	<div class="bullets first"></div>
 	<div class="bullets second"></div>
-	<div><img src="web-app/img/luz.png" id="light"></div>
+	<div id="light"><img src="web-app/img/luz.png"></div>
 	<div id="rectangle">
 		<div id="orange-rectangle">
 			<center>
@@ -41,7 +41,7 @@
 				</tbody>
 			</table>
 			</center>
-			<div><img src="web-app/img/banco.png" id="bank"></div>
 		</div>
 	</div>
+	<div id="bank"></div>
 </section>
