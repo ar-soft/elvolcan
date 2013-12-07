@@ -17,6 +17,7 @@
 					<li><a href="/">inicio</a></li>
 					<li><a href="?axn=imagenes">imágenes</a></li>
 					<li><a href="?axn=ubicacion">ubicación</a></li>
+					<li><a href="?axn=servicios">servicios</a></li>
 					<li><a href="?axn=tarifas">tarifas</a></li>
 					<li><a href="?axn=reservas">reservas</a></li>
 				</ul>
