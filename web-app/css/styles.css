@@ -237,13 +237,11 @@ ol, ul, menu {
     top: 140px;
     width: 650px;
 }
-
-#bank {
-
-    position: absolute;
+.bank {
     bottom: 10px;
-    left: 50%;
-
+    margin-left: -126.5px;
+    position: absolute;
+    width: 258px;
 }
 
 #logoinferior{
