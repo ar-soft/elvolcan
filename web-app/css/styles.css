@@ -111,9 +111,6 @@ ol, ul, menu {
 .reservation ul {
     padding: 0;
 }
-.form-row-date label {
-    font-size: 12px;
-}
 .form-row-date input {
     height: 18px;
     width: 36px;
@@ -127,12 +124,26 @@ ol, ul, menu {
 .form-row-date {
     margin: 0 15px 5px 75px;
 }
+label {
+    display: inline-block;
+}
 .form-row label,
 .form-row-date label {
-    display: inline-block;
     width: 50px;
 }
+.form-row textarea {
+    vertical-align: top;
+}
+
+.contacto .form-row label{
+    width: 150px;
+    text-align: left;   
+}
+.contacto .form-row input {
+    width: 250px;
+}    
 .form-row-date label {
+    font-size: 12px;
     width: 38px;
 }
 .form-row input {
@@ -243,7 +254,12 @@ ol, ul, menu {
     position: absolute;
     width: 258px;
 }
-
+.sobre {
+    height: 600px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
 #logoinferior{
 
     margin-top:20px;
