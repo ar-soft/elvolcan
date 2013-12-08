@@ -1,20 +1,17 @@
 body {
     font-family: 'gill sans';
+    font-size: 13px;
     margin: 0;
     padding: 0;
 }
 header {
     padding-top: 30px;
 }
-footer {
-    min-height: 80px;
-}
 header nav {
     background: none repeat scroll 0 0 #F19402;
     min-height: 60px;
 }
 nav ul {
-    font-size: 13px;
     margin: 0;
 }
 header nav ul {
@@ -23,33 +20,19 @@ header nav ul {
     width: 90%;
     text-align: center;
 }
-footer nav ul {
-    float: right;
-    margin: 40px 12% 0 0;
-}
 nav ul li {
     display: inline-block;
-    text-transform: uppercase;
 }
 header nav ul li {
     width: 7%;
 }
-footer nav ul li {
-    border: 1px solid #CC7A29;
-    text-align: center;
-}
 header nav ul li a {
     color: #FFFFFF;
 }
-footer nav ul li a {
-    color: #000000;
-    display: block;
-    width: 100px;
-    padding-top: 5px;
-    padding-bottom: 5px;    
-}
-nav ul li a {
+a {
+    text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 header nav ul li a:hover {
     color: #DAA520;
@@ -111,7 +94,6 @@ ol, ul, menu {
     border: 1px solid #F19402;
     border-radius: 15px;
     color: #FFFFFF;
-    font-size: 13px;
     height: 350px;
     position: absolute;
     right: 2%;
@@ -274,19 +256,33 @@ label {
     right: 0;
     top: 100px;
 }
-#logoinferior{
-
-    margin-top:20px;
-    margin-left: 110px;
-    margin-bottom: 10px;
+footer {
+    height: 100px;
 }
-#copyright{
-    background-color: #DAA520;
-    color: white;
-    font-size: 13px;
-    height: 20px;
+.logoinferior {
+    margin: 20px 0 0 110px;
+    position: absolute;
+}
+.contact-link {
+    border: 1px solid #CC7A29;
+    float: right;
+    margin: 20px 12% 0 0;
+}
+.contact-link a {
+    color: #000000;
+    display: block;
+    padding: 5px;
+    width: 100px;
+}
+.copyright {
+    color: #FFFFFF;
     margin-left: 27%;
+    padding-top: 75px;
     text-align: center;
-    top: 780px;
     width: 550px;
+}
+.copyright p {
+    background-color: #DAA520;
+    margin: 0;
+    padding: 3px;
 }

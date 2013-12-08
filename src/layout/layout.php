@@ -29,13 +29,13 @@
 			<?php if($axn): echo "<hr>";endif;?>
 		</section>
 		<footer>
-			<nav>
-				<img id="logoinferior" src="web-app/img/logoinferior.png">
-				<ul>
-					<li><a href="?axn=contacto">contacto</a></li>
-				</ul>
-				<div id="copyright"><p>&copy; El Volcán Hotel Serrano - El Volcán, San Luis, Argentina. Todos los derechos reservados</p></div>
-			</nav>
+			<img class="logoinferior" src="web-app/img/logoinferior.png">
+			<div class="contact-link">
+				<a href="?axn=contacto">contacto</a>
+			</div>
+			<div class="copyright">
+				<p>&copy; El Volcán Hotel Serrano - El Volcán, San Luis, Argentina. Todos los derechos reservados</p>
+			</div>
 		</footer>
 	</section>	
 </body>
