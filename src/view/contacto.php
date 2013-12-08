@@ -25,7 +25,7 @@
 					<textarea id="comment" cols="45" rows="8" maxlength="400"></textarea>
 				</li>
 			</ul>
-			<input type="image" width="185" height="40" src="/web-app/img/sendReservation.png" value="Enviar Reserva" />
+			<input name="send" id="send" type="submit" value="Enviar" class="button">
 		</form>
-		<img src="web-app/img/sobre.png" class="sobre">
+		<!--<img src="web-app/img/sobre.png" class="sobre">-->
 </section>

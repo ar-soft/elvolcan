@@ -110,8 +110,11 @@ ol, ul, menu {
 .reservation img {
     margin: 10px 0 0 30px;
 }
-.form-row {
+.content.home .form-row {
     margin: 14px 15px 14px 20px;
+}
+.content.contacto .form-row {
+    line-height: 30px;
 }
 .form-row-date {
     margin: 0 15px 5px 75px;
@@ -124,9 +127,9 @@ label {
     width: 50px;
 }
 .form-row textarea {
+    margin-top: 3px;
     vertical-align: top;
 }
-
 .contacto .form-row label{
     width: 150px;
     text-align: left;   
@@ -138,8 +141,10 @@ label {
     font-size: 12px;
     width: 38px;
 }
-.form-row input {
-    border: 1px solid #CCCCCC;
+input, textarea {
+    border: none;
+}
+.form-row input{
     height: 25px;
     width: 160px;
 }
@@ -253,6 +258,19 @@ label {
     position: absolute;
     right: 0;
     top: 100px;
+}
+.content.contacto form{
+    margin: 100px 0 0 15%;
+}
+.button{
+    background-image: url("/web-app/img/orange-background.png");
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 28px;
+}
+.content.contacto .button {
+    margin-left: 195px;
+    width: 71px;
 }
 footer {
     height: 100px;
