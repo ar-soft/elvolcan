@@ -1,30 +1,39 @@
-$(".image img").click(function(){
+$(document).ready(function(){
 
-	var urlImage = this.src;
-	var imageNumber = this.id;
+	var contentImg = $(".content-body .image-square img");
+	var contentImage = $(".content-body .image-square");
+	var leftArrow = $(".content-body .arrow-left-div img");
+	var rightArrow = $(".content-body .arrow-right-div img");
+
+	var firstImage = $("#1");
+	var urlImage = firstImage.attr("src");
+	var imageNumber = firstImage.attr("id");
 	contentImg.attr("src",urlImage);
 	contentImg.attr("id",imageNumber);
 	
 	if(isLastImage(parseInt(imageNumber))){
 		
 		if(imageNumber <=1){
-			leftArrow.attr("src","");
+			leftArrow.hide();
+			rightArrow.show();
 		}else{
-			rightArrow.attr("src","");
+			rightArrow.hide();
+			leftArrow.show();
 		}
 		
 	}else{
-		leftArrow.attr("src","/web-app/assets/flecha-izq.png");
-		rightArrow.attr("src","/web-app/assets/flecha-der.png");
+		leftArrow.show();
+		rightArrow.show();
 	}
-	
-	modal.content(content.html()).width("650px").height("450px");
-	modal.show();
 	
 });
 
 function changeImage(side){
 	
+	var contentImg = $(".content-body .image-square img");
+	var contentImage = $(".content-body .image-square");
+	var leftArrow = $(".content-body .arrow-left-div img");
+	var rightArrow = $(".content-body .arrow-right-div img");
 	var idNextImage
 	var srcNextImage
 	
@@ -35,12 +44,12 @@ function changeImage(side){
 		contentImg.attr("id", idNextImage);
 		
 		if(isLastImage(idNextImage)){
-			leftArrow.attr("src","");
-		}else{
-			rightArrow.attr("src","/web-app/assets/flecha-der.png");
+			leftArrow.hide();
+			rightArrow.show();
 		}
-		
-		modal.content(content.html());
+		/*else{
+			rightArrow.attr("src","/web-app/assets/flecha-der.png");
+		}*/
 		
 	}else{
 		idNextImage = parseInt(contentImg.attr("id")) + 1;
@@ -49,11 +58,12 @@ function changeImage(side){
 		contentImg.attr("id", idNextImage);
 		
 		if(isLastImage(idNextImage)){
-			rightArrow.attr("src","");
-		}else{
-			leftArrow.attr("src","/web-app/assets/flecha-izq.png");
+			rightArrow.hide();
+			leftArrow.show();
 		}
-		modal.content(content.html());
+		/*else{
+			leftArrow.attr("src","/web-app/assets/flecha-izq.png");
+		}*/
 	}
 	
 }

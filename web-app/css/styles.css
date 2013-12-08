@@ -302,3 +302,49 @@ footer {
     margin: 0;
     padding: 3px;
 }
+
+/*ESTILOS PARA GALERIA DE IMAGENES Y SERVICIOS*/
+
+.flecha-der{
+    width:50px;
+}
+
+.flecha-izq{
+    width:50px;
+}
+
+.arrow-left-div{
+    left: 37%;
+    position: absolute;
+    top: 400px;
+}
+
+.arrow-right-div{
+    left: 79%;
+    position: absolute;
+    top: 400px;
+}
+
+.arrow-left-div :hover{
+    background: black;
+}
+
+.arrow-right-div :hover{
+    background: black;
+}
+
+.image-square img{
+    left: 46%;
+    position: absolute;
+    top: 300px;
+    width: 360px;
+}
+
+/*ESTILOS PARA GALERIA DE IMAGENES Y SERVICIOS*/
+
+#square{
+
+    width: 450px;
+    margin-top:150px;
+}
+
