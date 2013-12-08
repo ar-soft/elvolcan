@@ -27,5 +27,6 @@
 			</ul>
 			<input name="send" id="send" type="submit" value="Enviar" class="button">
 		</form>
+		<p>NOTA: Los campos con asterisco (<em>*</em>) son obligatorios.</p>
 		<!--<img src="web-app/img/sobre.png" class="sobre">-->
 </section>
