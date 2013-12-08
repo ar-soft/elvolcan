@@ -54,7 +54,7 @@
 	</div>
 	<div id="message"><h1>Un lugar para disfrutar</h1></div>
 	<div>
-		<img id="background" src="web-app/img/fondo.png" alt="El Volcán">
+		<img id="background" src="web-app/img/fondo.jpg" alt="El Volcán">
 	</div>
 	<div id="information">
 		<p>El Hotel posee X habitaciones con todo lo necesario para brindarle el servicio que Ud. se merece.<br>Se encuentra ubicado a YY Km. de San Luis, en una zona atractiva y placentera por sus...</p>
