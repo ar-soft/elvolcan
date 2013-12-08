@@ -1,4 +1,4 @@
-<div class="content-column"></div>
+<div class="content-column"><img src="web-app/img/candelabro.png"></div>
 <section class="content-body">
 	<div class="bullets first"></div>
 	<div class="bullets second"></div>

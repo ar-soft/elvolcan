@@ -74,6 +74,16 @@ ol, ul, menu {
     min-width: 250px;
     position: absolute;
 }
+
+.content-column img{
+
+    position: absolute;
+    top: 520px;
+    max-width: 180px;
+    left: 15%;
+
+}
+
 .content.home .content-column{
     min-height: 0;
 }
@@ -222,9 +232,11 @@ label {
     margin-bottom: 120px;
     margin-right: 50px;
     padding: 10px;
+    height: 255px;
 }
 #orange-rectangle{
     border: 1px solid #F19402;
+    height: 255px;
 }
 #orange-rectangle table {
     font-size: 20px;
@@ -243,16 +255,17 @@ label {
     font-size: 8pt !important; 
 }
 .light {
+    height: 600px;
     margin-left: -325px;
     position: absolute;
     top: 140px;
     width: 650px;
 }
 .bank {
-    background-repeat:no-repeat;
-    bottom: 5%;
+    background-repeat: no-repeat;
     margin-left: -126.5px;
     position: absolute;
+    top: 570px;
     width: 258px;
 }
 .sobre {
@@ -271,10 +284,9 @@ label {
     background-color: #DAA520;
     color: white;
     font-size: 13px;
-    margin-left: 350px;
-    margin-top: -30px;
-    max-width: 600px;
-    min-height: 20px;
-    position: absolute;
+    height: 20px;
+    margin-left: 27%;
     text-align: center;
+    top: 780px;
+    width: 550px;
 }
