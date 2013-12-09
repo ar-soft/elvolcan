@@ -186,7 +186,8 @@ input, textarea {
 }
 .content.tarifas .content-body,
 .content.servicios .content-body,
-.content.contacto .content-body{ 
+.content.contacto .content-body,
+.content.imagenes .content-body{ 
     margin: 8px 12 8px 280px;
     background-color: #E68501;
     border: 1px solid #F2940B;
