@@ -177,8 +177,10 @@ input, textarea {
     font-weight: 100;
 }
 .content-body{
-    margin-left: 280px;
     min-height: 570px;
+}
+.content.home .content-body{
+    min-height: 480px;
 }
 .content.ubicacion iframe{
     min-height: 584px;
@@ -276,6 +278,9 @@ input, textarea {
 footer {
     height: 100px;
 }
+.content.home footer {
+    height: 120px;
+}
 .logoinferior {
     margin: 20px 0 0 110px;
     position: absolute;
@@ -284,6 +289,9 @@ footer {
     border: 1px solid #CC7A29;
     float: right;
     margin: 20px 12% 0 0;
+}
+.content.home .contact-link {
+    margin: -60px 5% 0 0;
 }
 .contact-link a {
     color: #000000;

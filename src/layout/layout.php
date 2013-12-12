@@ -28,15 +28,13 @@
 			<?php require_once($body_path);?>
 			<?php if($axn): echo "<hr>";endif;?>
 		</section>
-		<footer>
-			<img class="logoinferior" src="web-app/img/logoinferior.png">
-			<div class="contact-link">
-				<a href="?axn=contacto">contacto</a>
-			</div>
-			<div class="copyright">
-				<p>&copy; El Volcán Hotel Serrano - El Volcán, San Luis, Argentina. Todos los derechos reservados</p>
-			</div>
-		</footer>
+		<?php 
+			if(!$axn): 
+				require_once(VIEW_PATH . "/_homeFooter.php");
+			else: 
+				require_once(VIEW_PATH . "/_defaultFooter.php");
+			endif;
+		?>
 	</section>	
 </body>
 </html>

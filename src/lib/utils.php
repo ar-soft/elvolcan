@@ -10,7 +10,6 @@ function renderLayoutWithView($contentLayout, $contentView, $variables = array()
 			}
 		}
 	}
-	
 	$body_path = $contentViewFullPath;
 	
 	if (file_exists($contentLayoutFullPath)) {
