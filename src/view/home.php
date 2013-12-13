@@ -1,6 +1,6 @@
 <section class="content-body">
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="/web-app/js/jquery-2.0.3.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<script src="web-app/js/jquery.ui.datepicker.js"></script>
 	<script>
@@ -58,6 +58,6 @@
 	</div>
 	<div id="information">
 		<p>El Hotel posee X habitaciones con todo lo necesario para brindarle el servicio que Ud. se merece.<br>Se encuentra ubicado a YY Km. de San Luis, en una zona atractiva y placentera por sus...</p>
-		<h1>San Miguel Arcangel / El Volcán San Luis Argentina</h1>
+		<h1>San Miguel Arcangel 1163/ El Volcán, San Luis, Argentina <br>Tel: 4494043</h1>
 	</div>
 </section>

@@ -1,7 +1,17 @@
 <script src="/web-app/js/jquery-2.0.3.min.js"></script>
 <!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
 <script src="/web-app/js/elvolcan.js"></script>
-<div class="content-column"></div>
+<div class="content-column"><center><p style="color:white">"El mejor confort con vista al paraíso lo encontrás en nuestras habitaciones"</p>
+	<p style="color:#707173">Todas nuestras Suites cuentan con una excelente vista al lago ya que han sido construidas acompañando la pendiente del lugar. 
+		Las terrazas contiguas a las suites le permitirán disfrutar de la naturaleza a pleno.</p><p style="color:white">Las Suites tienen las siguientes comodidades:</p>
+		<p style="color:#707173">TV y LCD<br>
+			DirectTV<br>
+			Teléfono<br>
+			Conexión a internet<br>
+			Baño con jacuzzi doble, ventanal y techo.<br>
+			Caja de seguridad<br>
+			Frigobar
+			</p></center><img src="web-app/img/candelabro.png"></div>
 <section class="content-body">
 	<div class="bullets first"></div>
 	<div class="bullets second"></div>

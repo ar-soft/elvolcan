@@ -67,6 +67,18 @@ ol, ul, menu {
 
 }
 
+.content-column center {
+
+    max-width: 230px;
+    margin-top: 250px;
+}
+
+.content-column p {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
 .content.home .content-column{
     min-height: 0;
 }
@@ -98,26 +110,26 @@ ol, ul, menu {
     position: absolute;
     right: 2%;
     top: 150px;
-    width: 250px;
+    width: 280px;
 }
 .reservation ul {
     padding: 0;
 }
 .form-row-date input {
     height: 18px;
-    width: 36px;
+    width: 70px;
 }
 .reservation img {
     margin: 10px 0 0 30px;
 }
 .content.home .form-row {
-    margin: 14px 15px 14px 20px;
+    margin: 14px 2px 5px 20px;
 }
 .content.contacto .form-row {
     line-height: 30px;
 }
 .form-row-date {
-    margin: 0 15px 5px 75px;
+    margin: 0 2px 5px 20px;
 }
 label {
     display: inline-block;
@@ -139,22 +151,22 @@ label {
 }    
 .form-row-date label {
     font-size: 12px;
-    width: 38px;
 }
 input, textarea {
     border: none;
 }
 .form-row input{
     height: 25px;
-    width: 160px;
+    vertical-align: top;
+    width: 198px;
 }
 #message {
     background: none repeat scroll 0 0 #F19402;
-    height: 75px;
-    opacity: 0.85;
+    height: 72px;
+    opacity: 0.55;
     position: absolute;
     top: 433px;
-    width: 50%;
+    width: 620px;
 }
 #message h1 {
     color: #FFFFFF;
