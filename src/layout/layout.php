@@ -12,12 +12,20 @@
 			<div>
 				<img id="logo" src="web-app/img/logo.png" alt="El Volcán" height="298" width="250">
 			</div>
-			<nav>
+			<nav class="menu">
 				<ul>
 					<li><a href="/">inicio</a></li>
 					<li><a href="?axn=imagenes">imágenes</a></li>
 					<li><a href="?axn=ubicacion">ubicación</a></li>
-					<li><a href="?axn=servicios">servicios</a></li>
+					<li><a href="?axn=servicios">servicios</a>
+						<ul>
+							<li><a href="/">Habitaciones</a></li>
+							<li><a href="/">Restaurant</a></li>
+							<li><a href="/">Spa</a></li>
+							<li><a href="/">Salón de Eventos</a></li>
+							<li><a href="/">Espacios recreativos</a></li>
+						</ul>
+					</li>
 					<li><a href="?axn=tarifas">tarifas</a></li>
 					<li><a href="?axn=reservas">reservas</a></li>
 				</ul>
@@ -28,15 +36,13 @@
 			<?php require_once($body_path);?>
 			<?php if($axn): echo "<hr>";endif;?>
 		</section>
-		<footer>
-			<img class="logoinferior" src="web-app/img/logoinferior.png">
-			<div class="contact-link">
-				<a href="?axn=contacto">contacto</a>
-			</div>
-			<div class="copyright">
-				<p>&copy; El Volcán Hotel Serrano - El Volcán, San Luis, Argentina. Todos los derechos reservados</p>
-			</div>
-		</footer>
+		<?php 
+			if(!$axn): 
+				require_once(VIEW_PATH . "/_homeFooter.php");
+			else: 
+				require_once(VIEW_PATH . "/_defaultFooter.php");
+			endif;
+		?>
 	</section>	
 </body>
 </html>

@@ -54,36 +54,13 @@
 	</div>
 	<div id="message"><h1>Un lugar para disfrutar</h1></div>
 	<div>
-		<img class="background" id="1" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:block">
-		<img class="background" id="2" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
-		<img class="background" id="3" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
-		<img class="background" id="4" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
+		<img id="background" src="web-app/img/fondo.jpg" alt="El Volcán">
 	</div>
+<<<<<<< HEAD
+	<div id="information">
+		<p>El Hotel posee X habitaciones con todo lo necesario para brindarle el servicio que Ud. se merece.<br>Se encuentra ubicado a YY Km. de San Luis, en una zona atractiva y placentera por sus...</p>
+		<h1>San Miguel Arcangel 1163/ El Volcán, San Luis, Argentina <br>Tel: 4494043</h1>
+	</div>
+=======
+>>>>>>> c4db21b29b8dcd130765bf461897574f8398b6da
 </section>
-<script type="text/javascript">
-
-	 var imageSpeed = 5000;
-	 var imageNumber = 1;
-	 var nextImage = 0;
-
-	 setTimeout("changeImage()", imageSpeed);
-
-	 function changeImage(){
-
-	 	nextImage = imageNumber + 1;
-
-	 	var existNextImage = $("#"+nextImage);
-
-	 	if(existNextImage.length <= 0 || existNextImage == null || existNextImage == 'undefined'){
-	 		nextImage = 1;
-	 	}
-
-	 	$("#"+imageNumber).hide().fadeOut();
-	 	$("#"+nextImage).show();
-	 	imageNumber = nextImage;
-
-	 	setTimeout("changeImage()", imageSpeed);
-
-	 }
-
-</script>

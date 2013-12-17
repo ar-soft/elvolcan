@@ -94,7 +94,7 @@ ol, ul, menu {
     margin-top: 4px;
     margin-bottom: 0px;
 }
-.content.home #background {
+.content.home .background {
     border-bottom: 3px solid #CC7A29;
     border-top: 3px solid #CC7A29;
     height: 450px;
@@ -189,8 +189,10 @@ input, textarea {
     font-weight: 100;
 }
 .content-body{
-    margin-left: 280px;
     min-height: 570px;
+}
+.content.home .content-body{
+    min-height: 480px;
 }
 .content.ubicacion iframe{
     min-height: 584px;
@@ -288,6 +290,9 @@ input, textarea {
 footer {
     height: 100px;
 }
+.content.home footer {
+    height: 120px;
+}
 .logoinferior {
     margin: 20px 0 0 110px;
     position: absolute;
@@ -296,6 +301,9 @@ footer {
     border: 1px solid #CC7A29;
     float: right;
     margin: 20px 12% 0 0;
+}
+.content.home .contact-link {
+    margin: -60px 5% 0 0;
 }
 .contact-link a {
     color: #000000;
@@ -360,5 +368,46 @@ footer {
 
     width: 450px;
     margin-top:150px;
+}
+
+/** Menu styles **/
+.menu ul li{
+    /*width: 100%;*/
+}
+
+.menu li ul{
+ background: #F19402;
+ display:none;
+ margin-top: 0px;
+ padding:15px;
+ width:170px;
+ z-index: 1001;
+ text-transform: uppercase;
+ color: white;
+}
+
+.menu li ul li{
+    padding: 2px;
+    text-align: left;
+    width: 100%;
+}
+
+.menu li a{
+ text-decoration: none;
+}
+
+.menu li:hover{
+ position:relative;
+}
+
+.menu li:hover ul {
+    display: block;
+    float:left;
+    position: absolute;
+    z-index: 1001;
+}
+
+.subMenu {
+    background: #F19402;
 }
 
