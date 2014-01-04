@@ -2,7 +2,7 @@
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
 	<script src="/web-app/js/jquery-2.0.3.min.js"></script>
 	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
-	<script src="web-app/js/jquery.ui.datepicker.js"></script>
+	<script src="/web-app/js/jquery.ui.datepicker.js"></script>
 	<script>
 		$(function() {
 		$( "#in" ).datepicker( $.datepicker.regional[ "es" ] );
@@ -32,7 +32,14 @@
 				</li>
 				<li class="form-row">
 					<label>Tipo de Suite</label>
-					<input id="suite" type="text"/>
+					<select>
+						<option value="ninguna">-------</option>
+						<option value="doble-estandar">Doble estándar</option>
+						<option value="triple-estandar">Triple estándar</option>
+						<option value="cuadruple-estandar">Cuádruple estándar</option>
+						<option value="doble-suite">Doble suite</option>
+						<option value="cuadruple-suite">Cuádruple suite</option>
+					</select>
 				</li>	
 				<li class="form-row-date">
 					<label>Ingreso</label>
@@ -53,12 +60,14 @@
 		</form>
 	</div>
 	<div id="message"><h1>Un lugar para disfrutar</h1></div>
-	<div>
-		<img class="background" id="1" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:block">
-		<img class="background" id="2" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
-		<img class="background" id="3" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
-		<img class="background" id="4" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:none">
-	</div>
+	<?php require_once(CLASS_PATH."/images.php");
+		  Images::printImages(); ?>
+	<!--<div>
+		<img class="background" id="1" src="web-app/img/fondo.jpg" alt="El Volcán" style="display:inline">
+		<img class="background" id="2" src="web-app/img/fondo-1.jpg" alt="El Volcán" style="display:none">
+		<img class="background" id="3" src="web-app/img/fondo-2.jpg" alt="El Volcán" style="display:none">
+		<img class="background" id="4" src="web-app/img/fondo-3.jpg" alt="El Volcán" style="display:none">
+	</div>-->
 </section>
 <script type="text/javascript">
 
@@ -78,7 +87,7 @@
 	 		nextImage = 1;
 	 	}
 
-	 	$("#"+imageNumber).hide().fadeOut();
+	 	$("#"+imageNumber).hide();
 	 	$("#"+nextImage).show();
 	 	imageNumber = nextImage;
 

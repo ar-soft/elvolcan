@@ -1,9 +1,22 @@
+.mac body{
+     font-family: 'gill sans';
+}
+
 body {
-    font-family: 'gill sans';
+    font-family: Gill Sans MT;
     font-size: 13px;
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+font-family: 'Gill Sans MT';
+src:
+    local('Gill Sans MT'),
+    local('gill-Regular'),
+    url('/web-app/font/Gill-Sans-MT.ttf');
+}
+
 header {
     padding-top: 30px;
 }
@@ -102,8 +115,8 @@ ol, ul, menu {
     width: 100%;
 }
 .reservation {
-    background-color: #F19402;
-    border: 1px solid #F19402;
+    background-color: rgba(255, 125, 0, 0.7);
+    border: 1px rgba(255, 125, 0, 0.7);
     border-radius: 15px;
     color: #FFFFFF;
     height: 350px;
@@ -120,7 +133,7 @@ ol, ul, menu {
     width: 70px;
 }
 .reservation img {
-    margin: 10px 0 0 30px;
+    margin: 10px 0 0 50px;
 }
 .content.home .form-row {
     margin: 14px 2px 5px 20px;
@@ -166,22 +179,23 @@ input, textarea {
     opacity: 0.55;
     position: absolute;
     top: 433px;
-    width: 620px;
+    width: 520px;
 }
 #message h1 {
     color: #FFFFFF;
-    font-size: 45px;
+    font-size: 37px;
     margin: 10px 0 10px 20px;
     text-align: left;
     text-transform: uppercase;
     font-weight: normal;
+    opacity: 100;
 }
 #information {
     background: none repeat scroll 0 0 #F19402;
     border: 1px solid #F2940B;
     border-radius: 0 0 15px 15px;
     color: #FFFFFF;
-    height: 110px;
+    height: 120px;
     margin-bottom: 0;
     margin-left: 20%;
     margin-right: 20%;
@@ -199,9 +213,15 @@ input, textarea {
     min-width: 100%;
 }
 .content.tarifas .content-body,
-.content.servicios .content-body,
+.content.habitaciones .content-body,
 .content.contacto .content-body,
-.content.imagenes .content-body{ 
+.content.imagenes .content-body,
+.content.restaurant .content-body,
+.content.salon .content-body,
+.content.spa .content-body,
+.content.espacios .content-body,
+.content.success .content-body
+{ 
     margin: 8px 12 8px 280px;
     background-color: #E68501;
     border: 1px solid #F2940B;
@@ -355,11 +375,11 @@ footer {
 }
 
 .image-square img{
-    height: 270px;
+    height: 275px;
     left: 46%;
     position: absolute;
-    top: 300px;
-    width: 360px;
+    top: 295px;
+    width: 360px;   
 }
 
 /*ESTILOS PARA GALERIA DE IMAGENES Y SERVICIOS*/
@@ -380,10 +400,12 @@ footer {
  display:none;
  margin-top: 0px;
  padding:15px;
- width:170px;
+ width:140px;
  z-index: 1001;
  text-transform: uppercase;
  color: white;
+ border: 0.1px solid #FFFFFF;
+ border-radius: 0 0 15px 15px;
 }
 
 .menu li ul li{
@@ -409,5 +431,18 @@ footer {
 
 .subMenu {
     background: #F19402;
+}
+
+#success{
+    font-size: 30px;
+    margin-top: 200px;
+    color: white;
+}
+
+#successButton{
+    margin-top:30px;
+    height: 25px;
+    border-radius:6px;
+    background-color: orange;
 }
 

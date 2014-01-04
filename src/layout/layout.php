@@ -1,9 +1,13 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html lang="es">
+<!doctype html>
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8"/>
 	
 	<title>Hotel El Volcán</title>
+	<script src="/web-app/js/css-browser-selector.js"></script>
 	<link rel="stylesheet" type="text/css" href="/web-app/css/styles.css">
 </head>
 <body>
@@ -17,13 +21,13 @@
 					<li><a href="/">inicio</a></li>
 					<li><a href="?axn=imagenes">imágenes</a></li>
 					<li><a href="?axn=ubicacion">ubicación</a></li>
-					<li><a href="?axn=servicios">servicios</a>
+					<li><a href="?axn=habitaciones">servicios</a>
 						<ul>
-							<li><a href="/">Habitaciones</a></li>
-							<li><a href="/">Restaurant</a></li>
-							<li><a href="/">Spa</a></li>
-							<li><a href="/">Salón de Eventos</a></li>
-							<li><a href="/">Espacios recreativos</a></li>
+							<li><a href="?axn=habitaciones">Habitaciones</a></li>
+							<li><a href="?axn=restaurant">Restaurant</a></li>
+							<li><a href="?axn=spa">Spa</a></li>
+							<li><a href="?axn=salon">Salón de Eventos</a></li>
+							<li><a href="?axn=espacios">Espacios recreativos</a></li>
 						</ul>
 					</li>
 					<li><a href="?axn=tarifas">tarifas</a></li>
