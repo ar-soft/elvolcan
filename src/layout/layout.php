@@ -13,7 +13,9 @@
 			<div>
 				<img id="logo" src="web-app/img/logo.png" alt="El Volcán" height="298" width="250">
 			</div>
-			<nav class="menu">
+			<?php require_once(CLASS_PATH."/menu.php");
+		  	Menu::printOptions($axn); ?>
+			<!--<nav class="menu">
 				<ul>
 					<li><a href="/">inicio</a></li>
 					<li><a href="?axn=imagenes">imágenes</a></li>
@@ -30,7 +32,7 @@
 					<li><a href="?axn=tarifas">tarifas</a></li>
 					<li><a href="?axn=reservas">reservas</a></li>
 				</ul>
-			</nav>
+			</nav>-->
 		</header>
 		<section>
 			<hr>
