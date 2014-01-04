@@ -1,0 +1,114 @@
+.ch-popover {
+    box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.2);
+}
+.ch-bubble {
+    font-size: .929em;
+    padding: 5px 5px 5px 25px;
+    border: 1px solid #EED3D7;
+}
+/* Error icon */
+.ch-bubble .ch-icon-remove-sign {
+    top: 2px;
+    left: 0px;
+}
+.ch-bubble.ch-cone[data-side=right] .ch-popover-content:before {
+    border-right-color: #EED3D7;
+}
+.ch-bubble.ch-cone[data-side=right] .ch-popover-content:after {
+    border-right-color: #F5E6E6;
+}
+/**
+ * Input colorizing
+ */
+
+.ch-form input.ch-validation-error,
+.ch-form textarea.ch-validation-error,
+.ch-form input.ch-bubble-trigger-on,
+.ch-form textarea.ch-bubble-trigger-on,
+.ch-countdown-exceeded {
+    border-color: #f99;
+}
+/**
+ * Message boxes
+ */
+.ch-box-icon {
+    position: relative;
+    padding-left: 32px;
+}
+
+.ch-box-icon [class*='ch-icon-'] {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+ 
+/**
+ * Error
+ */
+.ch-box-error,
+.ch-icon-remove-sign {
+    color: #B94A48;
+}
+
+.ch-box-error {
+    background-color: #F5E6E6;
+}
+
+.ch-box-error a:visited {
+    color: #0033BB;
+} 
+/**
+ * Cone
+ */
+.ch-cone .ch-popover-content:before,
+.ch-cone .ch-popover-content:after {
+    border: outset transparent; /* border transparent bug on FF: http://stackoverflow.com/a/6225439 */
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.ch-cone .ch-popover-content:before {
+    border-width: 10px;
+}
+
+.ch-cone .ch-popover-content:after {
+    border-width: 9px;
+}
+
+/**
+ * Right side
+ * ltrt, lmrm, lbrb
+ */
+.ch-cone[data-side=right] .ch-popover-content:before,
+.ch-cone[data-side=right] .ch-popover-content:after {
+    right: 100%;
+    border-right-style: solid;
+}
+
+.ch-cone[data-side=right] .ch-popover-content:before {
+    border-right-color: #DDD;
+}
+
+.ch-cone[data-side=right] .ch-popover-content:after {
+    border-right-color: #fff;
+}
+
+/**
+ * Right alignment
+ */
+.ch-cone[data-side=bottom][data-align=right] .ch-popover-content:after,
+.ch-cone[data-side=top][data-align=right] .ch-popover-content:after {
+    right: 8px;
+}
+
+.ch-cone[data-side=bottom][data-align=right] .ch-popover-content:before,
+.ch-cone[data-side=top][data-align=right] .ch-popover-content:before {
+    right: 7px;
+}
+.ch-icon-remove-sign:before {
+    content: '\f057';
+}
