@@ -6,7 +6,7 @@
 		<div>
 			<h5>Complete el siguiente formulario para realizarnos su consulta, a la brevedad recibirá nuestra respuesta:</h5>
 		</div>
-		<form id="contact" name="contact" method="POST" action="src/class/sendMessage.php">
+		<form class="contactForm" method="POST" action="src/class/sendMessage.php">
 			<ul>
 				<li class="form-row">
 					<label>Nombre y Apellido <em>*</em></label>

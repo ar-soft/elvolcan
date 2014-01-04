@@ -8,7 +8,9 @@
 	
 	<title>Hotel El Volcán</title>
 	<script src="/web-app/js/css-browser-selector.js"></script>
-	<link rel="stylesheet" type="text/css" href="/web-app/css/styles.css">
+	<!-- Chico UI Core stylesheet -->
+    <link rel="stylesheet" href="/web-app/css/chico.css"/>
+    <link rel="stylesheet" type="text/css" href="/web-app/css/styles.css">
 </head>
 <body>
 	<section class="content<?php if(!$axn): echo " home"; else: echo " $axn";endif;?>">
@@ -47,6 +49,15 @@
 				require_once(VIEW_PATH . "/_defaultFooter.php");
 			endif;
 		?>
-	</section>	
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="/web-app/js/chico.js"></script>
+    <?php 
+		if(file_exists(JS_PATH . "/" . $axn . ".js")): 
+			echo "<script type=\"text/javascript\">";
+			require_once(JS_PATH . "/" . $axn . ".js");
+			echo "</script>";
+		endif;
+	?>
 </body>
 </html>
