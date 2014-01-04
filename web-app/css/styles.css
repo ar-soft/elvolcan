@@ -50,6 +50,12 @@ a {
 header nav ul li a:hover {
     color: #DAA520;
 }
+header .selected{
+    color: #DAA520;
+    text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px #000;
+  -webkit-text-shadow: 0 0 2px #000;
+}
 ol, ul, menu {
     list-style: none outside none;
 }

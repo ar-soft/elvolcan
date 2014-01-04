@@ -31,9 +31,9 @@
 				//direcciones que recibirán copia oculta
 				$headers .= "Bcc: alcarazrodrigoh@gmail.com\r\n"; 
 	
-				mail("contacto@hotelelvolcancom.ar",$asunto,$cuerpo,$headers);
+				mail("contacto@hotelelvolcan.com.ar",$asunto,$cuerpo,$headers);
 				
-				header( 'Location: http://localhost/index.php?axn=success' ) ;
+				header( 'Location: /index.php?axn=success' ) ;
 				
 			}
 
